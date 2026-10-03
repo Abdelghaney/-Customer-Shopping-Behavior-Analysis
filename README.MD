@@ -29,20 +29,3 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · BeautifulSoup · SQLAlchem
 ├── notebooks/Main.ipynb
 ├── sql/customer_behavior.sql
 └── README.md
-
-## How to Run
-1. Clone the repo:
-   git clone https://github.com/<your-username>/<repo-name>.git
-2. Install dependencies:
-   pip install pandas numpy matplotlib seaborn requests beautifulsoup4 sqlalchemy "psycopg[binary]"
-3. Create a PostgreSQL database named `Customer_behavior`.
-4. Set your connection string as an environment variable (don't hardcode it).
-5. Run `Main.ipynb` to clean the data and load it into the `customer` table.
-6. Run the queries in `sql/customer_behavior.sql`.
-
-## License
-MIT License
-
-## Contact
-Muhammed Ahmed Abd-Elghaney
-LinkedIn: <link> · GitHub: <link>
